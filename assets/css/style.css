@@ -217,9 +217,8 @@ nav ul li a:hover::after {
 
 .project-card img {
     width: 100%;
-    height: 220px;          /* keeps all cards the same height */
-    object-fit: contain;    /* shows the whole image without cropping */
-    background-color: #f8f9fa; /* fills empty space above/below */
+    height: 220px;
+    object-fit: cover;
 }
 
 .project-card-content {
