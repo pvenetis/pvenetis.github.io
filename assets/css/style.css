@@ -219,6 +219,7 @@ nav ul li a:hover::after {
     width: 100%;
     height: 220px;
     object-fit: cover;
+    object-position: top; /* anchors crop to top instead of center */
 }
 
 .project-card-content {
